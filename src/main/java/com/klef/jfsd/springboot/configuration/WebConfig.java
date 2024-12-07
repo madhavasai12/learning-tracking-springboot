@@ -16,7 +16,7 @@ public class WebConfig {
                 registry.addMapping("/**") 
                         .allowedOrigins(
                             "http://localhost:3000", 
-                            "https://learning-tracking-system.vercel.app" 
+                            "https://madhava-student-learning-tracking.vercel.app" 
                         ) 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") 
                         .allowedHeaders("*") 
